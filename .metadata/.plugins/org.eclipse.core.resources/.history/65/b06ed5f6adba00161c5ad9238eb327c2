@@ -1,0 +1,25 @@
+package com.psl.PAttern;
+
+import java.util.Calendar;
+import java.util.Date;
+
+  public class Datee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Calendar c = Calendar.getInstance();
+		c.set(2016, 11, 25);
+        Date d , dd;
+        d= c.getTime();
+        
+        c.set(2016, 11, 25);
+        dd= c.getTime();
+        
+        System.out.println("Date of d in long -" +d.getTime());
+        System.out.println("Date of dd in long -" +dd.getTime());
+        
+    System.out.println(d.equals(dd));
+	}
+
+}

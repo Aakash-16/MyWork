@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.psl.PAttern.Date.java&apos; to &apos;Datee.java&apos;&#x0D;&#x0A;- Original project: &apos;PAtternMatching&apos;&#x0D;&#x0A;- Original element: &apos;com.psl.PAttern.Date.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.psl.PAttern.Datee.java&apos;" description="Rename compilation unit &apos;Date.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.psl.PAttern{Date.java" name="Datee.java" references="false" stamp="1480916311295" version="1.0"/>
+</session>

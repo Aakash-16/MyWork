@@ -1,0 +1,22 @@
+package com.psl.PAttern;
+
+import java.util.regex.Pattern;
+
+public class Place {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String s = "aakash Choudhary, , 1293";
+Pattern p  = Pattern.compile(",");
+String a [] = p.split(s);
+for (int i =0 ; i <a.length;i++){
+	a[i] = a[i].trim();
+	System.out.println(a[i] +"   " + a[i].length());
+}
+ char  aa[] = {'a', 'a','k','a','s','h'};
+ String f ;
+ f= String.copyValueOf(aa);
+ System.out.println(f);
+	}
+
+}

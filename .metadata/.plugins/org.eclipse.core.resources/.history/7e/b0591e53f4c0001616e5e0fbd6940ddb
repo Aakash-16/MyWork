@@ -1,0 +1,12 @@
+import java.util.Calendar;
+
+
+public class Temporaryyy {
+
+	public static void main(String[] args) {
+
+		StringBuffer s = new StringBuffer("Aakash choudhary");
+       System.out.println(s);
+	}
+
+}
